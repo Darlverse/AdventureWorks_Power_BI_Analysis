@@ -60,7 +60,7 @@ This relational design provides the foundation for cross-dimensional analysis, D
 
 ### Data Model Overview
 
-![AdventureWorks Data Model](Documentation/Data_Model_Overview.png)
+![AdventureWorks Data Model](Data_Model_Overview.png.png)
 
 ### 6. Sales Performance Dashboard
 The Sales Performance Dashboard provides an overview of business performance across 2015, 2016 and 2017.
@@ -89,11 +89,11 @@ The Sales Performance Dashboard provides an overview of business performance acr
 
 **Dashboard Screenshots**
 
-![Sales Dashboard 2015](Dashboard_Screenshots/Sales/sales_dashboard_2015.png)
+![Sales Dashboard 2015](sales_dashboard_2015.png.png)
 
-![Sales Dashboard 2016](Dashboard_Screenshots/Sales/sales_dashboard_2016.png)
+![Sales Dashboard 2016](sales_dashboard_2016.png.png)
 
-![Sales Dashboard 2017](Dashboard_Screenshots/Sales/sales_dashboard_2017.png)
+![Sales Dashboard 2017](sales_dashboard_2017.png.png)
 
 **Key Findings**
 -	Revenue and profit declined across the three-year period, while order volume and quantity sold increased
@@ -133,15 +133,15 @@ Key Performance Indicators
 A custom report-page tooltip was connected to the Total Customers KPI to provide an additional breakdown of customers by gender.
 This allows users to view the gender distribution on demand without adding more visual elements to the main dashboard.
 
-![Total Customers KPI Custom Tooltip](Dashboard_Screenshots/Customers/Tooltips/total_customers_gender_tooltip.png)
+![Total Customers KPI Custom Tooltip](total_customers_gender_tooltip.png.png)
 
 **Dashboard Screenshots**
 
-![Customer Insights 2015](Dashboard_Screenshots/Customers/customers_dashboard_2015.png)
+![Customer Insights 2015](customers_dashboard_2015.png.png)
 
-![Customer Insights 2016](Dashboard_Screenshots/Customers/customers_dashboard_2016.png)
+![Customer Insights 2016](customers_dashboard_2016.png.png)
 
-![Customer Insights 2017](Dashboard_Screenshots/Customers/customers_dashboard_2017.png)
+![Customer Insights 2017](customers_dashboard_2017.png.png)
 
 **Key Findings**
 -	The total customer base expanded considerably between 2015 and 2017.
