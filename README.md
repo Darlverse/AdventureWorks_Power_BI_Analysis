@@ -53,9 +53,9 @@ These steps helped prepare the dataset for modelling and analysis.
 
 ### 5. Data Model Architecture
 
-The project implements a Hybrid Star-Snowflake Schema, combining elements of both dimensional modelling approaches
+The project implements a Hybrid Star-Snowflake Schema, combining elements of both dimensional modelling approaches.
 The model connects the central sales table with supporting dimensions, including Customers, Products, Calendar, Geography and Returns
-The product dimension also incorporates a hierarchical structure through Product Subcategories and Product Categories
+The product dimension also incorporates a hierarchical structure through Product Subcategories and Product Categories.
 This relational design provides the foundation for cross-dimensional analysis, DAX calculations and interactive reporting
 
 ### Data Model Overview
@@ -128,13 +128,6 @@ Key Performance Indicators
 -	Income Segment
 -	Year
 
-**Custom Tooltip**
-
-A custom report-page tooltip was connected to the Total Customers KPI to provide an additional breakdown of customers by gender.
-This allows users to view the gender distribution on demand without adding more visual elements to the main dashboard.
-
-![Total Customers KPI Custom Tooltip](total_customers_gender_tooltip.png.png)
-
 **Dashboard Screenshots**
 
 ![Customer Insights 2015](customers_dashboard_2015.png.png)
@@ -143,14 +136,22 @@ This allows users to view the gender distribution on demand without adding more 
 
 ![Customer Insights 2017](customers_dashboard_2017.png.png)
 
+**Custom Tooltip**
+
+A custom report-page tooltip was connected to the Total Customers KPI to provide an additional breakdown of customers by gender.
+This allows users to view the gender distribution on demand without adding more visual elements to the main dashboard.
+
+![Total Customers KPI Custom Tooltip](total_customers_gender_tooltip.png.png)
+
+
 **Key Findings**
--	The total customer base expanded considerably between 2015 and 2017.
--	New customer acquisition increased substantially in 2016 but declined in 2017.
--	Average Order Value and Average Revenue per Customer declined across the reporting period.
--	Repeat Purchase Rate improved to 13% in 2016 before declining to 9% in 2017.
--	The United States recorded the highest customer count in 2016 and 2017, while the United States and Australia were nearly tied in 2015.
--	Professional customers represented the largest occupation group throughout the three years.
--	Average-income customers formed the largest income segment, followed by low-income and high-income customers.
+-	The total customer base expanded considerably between 2015 and 2017
+-	New customer acquisition increased substantially in 2016 but declined in 2017
+-	Average Order Value and Average Revenue per Customer declined across the reporting period
+-	Repeat Purchase Rate improved to 13% in 2016 before declining to 9% in 2017
+-	The United States recorded the highest customer count in 2016 and 2017, while the United States and Australia were nearly tied in 2015
+-	Professional customers represented the largest occupation group throughout the three years
+-	Average-income customers formed the largest income segment, followed by low-income and high-income customers
 
 ### 8. Business Recommendations
 Based on the observed dashboard findings, the following areas may warrant further investigation:
@@ -190,25 +191,25 @@ Overall, the project demonstrates how data preparation, data modelling, DAX calc
 
 ### 12. Project Structure
 
-adventureworks_power_bi_dashboard/
+```text
+AdventureWorks_Power_BI_Analysis/
 │
 ├── README.md
-├── .gitattributes
+├── Adventure_Works_Logo.png
 │
-├── Dashboard_Screenshots/
-│   ├── Sales/
-│   │   ├── sales_dashboard_2015.png
-│   │   ├── sales_dashboard_2016.png
-│   │   └── sales_dashboard_2017.png
-│   │
-│   └── Customers/
-│       ├── customers_dashboard_2015.png
-│       ├── customers_dashboard_2016.png
-│       └── customers_dashboard_2017.png
+├── Data_Model_Overview.png.png
 │
-└── Documentation/
-    └── Data_Model_Overview.png
-
+├── Sales Dashboard Images
+│   ├── sales_dashboard_2015.png.png
+│   ├── sales_dashboard_2016.png.png
+│   └── sales_dashboard_2017.png.png
+│
+└── Customer Dashboard Images
+    ├── customers_dashboard_2015.png.png
+    ├── customers_dashboard_2016.png.png
+    ├── customers_dashboard_2017.png.png
+    └── total_customers_gender_tooltip.png.png
+```
 ### 13. Repository Contents
 This repository contains the project documentation, dashboard screenshots and data model overview.
 The Power BI working file (.pbix), raw datasets and individual DAX formulas have not been included in this public repository.
