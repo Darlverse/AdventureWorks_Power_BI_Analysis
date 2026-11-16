@@ -1,4 +1,7 @@
-# AdventureWorks_Power_BI_Analysis
+# AdventureWorks_Power_BI_Analysis<p align="center">
+  <img src="Adventure_Works_Logo.png" alt="AdventureWorks Logo" width="500">
+</p>
+
 ### by Darlington Ubuwere
 GitHub: [@darlverse](https://github.com/darlverse)
 ---
