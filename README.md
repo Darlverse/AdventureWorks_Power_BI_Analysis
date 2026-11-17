@@ -39,7 +39,7 @@ The following tools and technologies were used:
 -	GitHub: Project documentation and version control
 
 
-### 4. Data Preparation
+### 4. Data Preparation and Transformation
 
 Data preparation was carried out in Power Query before developing the dashboards.
 
@@ -51,15 +51,17 @@ Data preparation was carried out in Power Query before developing the dashboards
 -	Removing irrelevant columns based on the analytical requirements
 -	Merging relevant tables
 -	Creating calculated columns where required
+-	Calendar Table Creation: Created a dedicated Calendar table from scratch to support consistent date-based analysis and time intelligence calculations
 
 These steps helped prepare the dataset for modelling and analysis.
 
 ### 5. Data Model Architecture
 
-The project implements a Hybrid Star-Snowflake Schema, combining elements of both dimensional modelling approaches.
-The model connects the central sales table with supporting dimensions, including Customers, Products, Calendar, Geography and Returns
-The product dimension also incorporates a hierarchical structure through Product Subcategories and Product Categories.
-This relational design provides the foundation for cross-dimensional analysis, DAX calculations and interactive reporting
+- The project implements a Hybrid Star-Snowflake Schema, combining elements of both dimensional modelling approaches.
+- The model connects the central sales table with supporting dimensions, including Customers, Products, Calendar, Geography and Returns
+- The product dimension also incorporates a hierarchical structure through Product Subcategories and Product Categories.
+- Established relationships between the Calendar table and relevant data tables using their date columns, supporting consistent date-based analysis across the model.
+- This relational design provides the foundation for cross-dimensional analysis, DAX calculations and interactive reporting
 
 ### Data Model Overview
 
@@ -74,7 +76,7 @@ The Sales Performance Dashboard provides an overview of business performance acr
 -	Total Orders
 -	Total Quantity
 -	Profit Margin
--	
+  
 **Dashboard Features**
 -	Revenue Trend Over Time
 -	Revenue Target Gauge
