@@ -200,20 +200,20 @@ Overall, the project demonstrates how data preparation, data modelling, DAX calc
 AdventureWorks_Power_BI_Analysis/
 │
 ├── README.md
+│
 ├── Adventure_Works_Logo.png
 │
 ├── Data_Model_Overview.png.png
 │
-├── Sales Dashboard Images
-│   ├── sales_dashboard_2015.png.png
-│   ├── sales_dashboard_2016.png.png
-│   └── sales_dashboard_2017.png.png
+├── sales_dashboard_2015.png.png
+├── sales_dashboard_2016.png.png
+├── sales_dashboard_2017.png.png
 │
-└── Customer Dashboard Images
-    ├── customers_dashboard_2015.png.png
-    ├── customers_dashboard_2016.png.png
-    ├── customers_dashboard_2017.png.png
-    └── total_customers_gender_tooltip.png.png
+├── customers_dashboard_2015.png.png
+├── customers_dashboard_2016.png.png
+├── customers_dashboard_2017.png.png
+│
+└── total_customers_gender_tooltip.png.png
 ```
 ### 13. Repository Contents
 This repository contains the project documentation, dashboard screenshots and data model overview.
